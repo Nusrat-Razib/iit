@@ -250,7 +250,7 @@ main {
 }
 #blog_temp .blog-content {
     display: block;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .blog-post {
@@ -287,29 +287,39 @@ main {
     color: #d35400;
 }
 
-#blog_temp .blog-content .blog-post{
-    background: #202024;
+#blog_temp .blog-content{
+    display: block;
 }
-#blog_temp .blog-content .blog-post ul{
+
+#blog_temp{
+    padding: 20px 0;
+}
+#blog_temp .blog-content{
+    background: #202024;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+#blog_temp .blog-content ul{
     display: flex;
     gap: 5px;
     justify-items: center;
 }
-#blog_temp .blog-content .blog-post ul li a{
+#blog_temp .blog-content ul li a{
     color: white;
 }
-#blog_temp .blog-content .blog-post ul li i{
+#blog_temp .blog-content ul li i{
     color: white;
     font-size: 12px;
 }
-#blog_temp .blog-content .blog-post h2{
+#blog_temp .blog-content h2{
     color: white;
     text-align: start;
 }
-#blog_temp .blog-content .blog-post p{
+#blog_temp .blog-content p{
     color: white;
 }
-#blog_temp .blog-content .blog-post img{
+#blog_temp .blog-content img{
     width: 50%;
     float: left;
     padding: 10px;
@@ -318,6 +328,34 @@ main {
     color: #d35400!important;
 }
 
+/* Blog Related */
+
+#blog-related{
+    padding: 20px;
+    background: #202024;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+}
+#blog-related .blog-card{
+    width: 33%;
+}
+#blog-related .blog-card .blog-img{
+    overflow: hidden;
+}
+
+#blog-related .blog-card .blog-img img{
+    width: 100%;
+}
+#blog-related .blog-card:hover img{
+    transform: scale(1.1);
+    transition: all linear 0.7s;
+}
+#blog-related .blog-card h5{
+    color: white;
+}
 /* Sidebar */
 .sidebar {
     flex: 0 0 28%;
