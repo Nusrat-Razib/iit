@@ -1,3 +1,22 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 /* Header */
 header {
     background: #193037 ;
@@ -9,6 +28,7 @@ header .logo h1 {
     float: left;
     margin-left: 20px;
     font-size: 24px;
+    color: #f4f4f4;
 }
 
 header nav {
@@ -47,13 +67,12 @@ body {
 
 /*Gallery*/
 .gallery-container {
-    
+    background-color: #193037;
     padding: 20px;
     text-align: center;
 }
 
 h1 {
-    margin-bottom: 20px;
     color: #333;
 }
 
@@ -84,4 +103,13 @@ h1 {
 
 .gallery-item:hover img {
     transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
 }
