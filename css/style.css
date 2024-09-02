@@ -278,6 +278,37 @@ main {
     color: #d35400;
 }
 
+#blog_temp .blog-content .blog-post{
+    background: #202024;
+}
+#blog_temp .blog-content .blog-post ul{
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+}
+#blog_temp .blog-content .blog-post ul li a{
+    color: white;
+}
+#blog_temp .blog-content .blog-post ul li i{
+    color: white;
+    font-size: 12px;
+}
+#blog_temp .blog-content .blog-post h2{
+    color: white;
+    text-align: start;
+}
+#blog_temp .blog-content .blog-post p{
+    color: white;
+}
+#blog_temp .blog-content .blog-post img{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.active{
+    color: #d35400!important;
+}
+
 /* Sidebar */
 .sidebar {
     flex: 0 0 28%;
