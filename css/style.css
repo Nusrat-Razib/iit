@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -19,9 +25,14 @@ body {
 
 /* Header */
 header {
-    background: #193037 ;
+    background: #202024 ;
     color: #fff;
     padding: 10px 0;
+}
+#header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo h1 {
@@ -56,7 +67,7 @@ header nav ul li a.active, header nav ul li a:hover {
 
 /* Hero Section */
 .hero-section {
-    background: url('../images/banner_img3.jpeg') /*no-repeat center center/cover*/;
+    background: url('../images/banner_img3.jpeg');
     color: #fff;
     height: 630px;
     display: flex;
@@ -149,7 +160,7 @@ header nav ul li a.active, header nav ul li a:hover {
 }
 
 .parallax {
-    background-image: url('/images/banner.jpeg');
+    background-image: url('../images/banner.jpeg');
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -187,7 +198,7 @@ footer {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #193037;
 }
 
 .container {
@@ -208,6 +219,7 @@ body {
 .blog-banner h2 {
     font-size: 36px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .blog-banner p {
@@ -220,9 +232,16 @@ main {
     justify-content: space-between;
     margin-top: 20px;
 }
+#blog_main{
+    padding-top: 20px;
+}
 
-.blog-content {
+#blog_main .blog-content {
     flex: 0 0 70%;
+}
+#blog_temp .blog-content {
+    display: block;
+    padding-top: 20px;
 }
 
 .blog-post {
