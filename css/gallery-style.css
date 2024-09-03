@@ -19,16 +19,20 @@ body {
 
 /* Header */
 header {
-    background: #193037 ;
+    background: #202024 ;
     color: #fff;
     padding: 10px 0;
+}
+#header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo h1 {
     float: left;
     margin-left: 20px;
     font-size: 24px;
-    color: #f4f4f4;
 }
 
 header nav {
@@ -52,7 +56,7 @@ header nav ul li a {
 }
 
 header nav ul li a.active, header nav ul li a:hover {
-    text-decoration: underline;
+    color:#e67e22;
 }
 
 body {
