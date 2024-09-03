@@ -151,6 +151,10 @@ header nav ul li a.active, header nav ul li a:hover {
     color: #555;
 }
 
+audio {
+    width: 100%;
+}
+
 .read-more {
     text-decoration: none;
     color: #333;
