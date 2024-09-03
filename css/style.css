@@ -170,9 +170,39 @@ header nav ul li a.active, header nav ul li a:hover {
     background-size: cover;
     position: relative;
     display: flex;
-    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0;
-  }
+}
+.table-header{
+    padding: 20px 0;
+    background: #193037;
+    width: 80%;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    z-index: 5;
+}
+.table-header h3{
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+}
+.table-header h3::after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 2px;
+    background: #d35400;
+    left: 12%;
+    bottom: 0;
+}
+.table-header p{
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: left;
+}
 
 .overlay {
     position: absolute; /* Sit on top of the page content */
@@ -186,7 +216,7 @@ header nav ul li a.active, header nav ul li a:hover {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 80%;
+    width: 95%;
     margin: auto;
     background: #202024;
 }
