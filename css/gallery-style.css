@@ -17,6 +17,12 @@ body {
     overflow: hidden;
 }
 
+
+
+
+
+
+
 /* Header */
 header {
     background: #202024 ;
@@ -33,6 +39,7 @@ header .logo h1 {
     float: left;
     margin-left: 20px;
     font-size: 24px;
+    padding: 0;
 }
 
 header nav {
