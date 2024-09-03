@@ -467,7 +467,7 @@ main {
 
 .sidebar-widget ul {
     list-style: none;
-    padding: 0;
+    padding-top: 5px;
 }
 
 .sidebar-widget ul li {
