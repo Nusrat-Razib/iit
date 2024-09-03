@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
 }
@@ -51,12 +51,12 @@ header nav ul li a {
 }
 
 header nav ul li a.active, header nav ul li a:hover {
-    text-decoration: underline;
+    color:#e67e22;
 }
 
 /* Hero Section */
 .hero-section {
-    background: url('../images/banner_img3.jpeg') /*no-repeat center center/cover*/;
+    background: url('../images/banner_img3.jpeg') no-repeat center center/cover;
     color: #fff;
     height: 630px;
     display: flex;
@@ -94,7 +94,6 @@ header nav ul li a.active, header nav ul li a:hover {
 
 /* Main Content */
 .main-content {
-    padding: 20px 0;
     background-color: #193037;
 }
 
@@ -107,12 +106,12 @@ header nav ul li a.active, header nav ul li a:hover {
 .main-content p {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
 }
 
 .main-content .container{
-    padding: 20px 0px 40px 0px;
+    padding: 40px 0px 80px 0px;
 }
 
 .content-grid {
@@ -123,7 +122,7 @@ header nav ul li a.active, header nav ul li a:hover {
 
 .content-item {
     background: #ffe1ca;
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 5px;
     text-align: center;
     flex: 1;
@@ -149,7 +148,7 @@ header nav ul li a.active, header nav ul li a:hover {
 }
 
 .parallax {
-    background-image: url('/images/banner.jpeg');
+    background-image: url('../images/banner.jpeg');
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -185,7 +184,7 @@ footer {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
 }
@@ -316,10 +315,10 @@ main {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.contact-container h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #f4f4f4;
+    color: #000;
 }
 
 .form-group {
@@ -409,6 +408,25 @@ button:hover {
 }
 
 
+/*intro*/
+.intro-container{
+    text-align: center;
+    background-color: #193037;
+}
+.intro-video{
+    padding-top:85px;
+}
+
+.intro-video iframe{
+    border: 3px solid #000;
+}
+
+.intro-content{
+    text-align: left;
+
+    padding: 40px 60px;
+}
+
 
 /* Footer */
 footer {
@@ -416,5 +434,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    margin-top: 20px;
 }
