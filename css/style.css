@@ -180,8 +180,10 @@ audio {
     padding: 20px 0;
 }
 .table-header{
+    margin: 40px 0;
     padding: 20px 0;
     background: #193037;
+    opacity: 0.8;
     width: 80%;
     text-align: center;
     box-shadow: 5px 5px 5px black;
@@ -376,10 +378,12 @@ main {
 #blog_temp .blog-content p{
     color: white;
 }
-#blog_temp .blog-content img{
+#blog_temp .blog-content img {
     width: 50%;
     float: left;
+    height: 320px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 .active{
     color: #d35400!important;
@@ -636,5 +640,5 @@ button:hover {
 .intro-content{
     text-align: left;
     color: white;
-    padding: 40px 60px;
+    padding: 45px 90px 95px;
 }
